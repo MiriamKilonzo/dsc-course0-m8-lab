@@ -32,3 +32,24 @@ Key steps included:
 
 For full details, see the notebook: `Aviation_Accidents_Cleaning.ipynb`.
 
+## Aviation Accident Data Analysis
+
+The analysis of the cleaned dataset (`AviationData_Cleaned.csv`) produced the following insights:
+
+### Large Aircraft
+- Safest models: Boeing 757 variants, Boeing 777, McDonnell Douglas MD‑80/88, Canadair CL‑600.
+- These aircraft consistently show low fatal/serious injury fractions, reflecting robust engineering and regulatory standards.
+
+### Small Aircraft
+- Safer makes include Waco, Bombardier, Grumman‑Schweizer, Helio, and Maule.
+- Safety outcomes are more variable compared to large jets, with some accidents highly survivable and others catastrophic.
+
+### Contextual Factors
+- **Weather:** Accidents in clear conditions (VMC) have much lower severity than those in IMC or unknown conditions.
+- **Phase of Flight:** Taxi, standing, and landing phases are relatively safe; takeoff, approach, and maneuvering carry higher risk.
+
+### Recommendations
+1. **Aircraft Selection:** Favor large commercial jets (e.g., Boeing 757, Boeing 777, MD‑80/88, Canadair CL‑600). For small aircraft, prioritize safer makes such as Waco or Bombardier.
+2. **Operational Risk Management:** Strengthen weather‑related decision protocols and emphasize pilot training during critical phases (takeoff, approach, maneuvering).
+3. **Safety Strategy:** Combine aircraft model/make performance with contextual risk factors to guide fleet acquisition, operational policies, and training programs.
+
