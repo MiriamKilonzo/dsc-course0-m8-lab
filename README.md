@@ -1,25 +1,24 @@
 # Aviation Accident Analysis
-Aircraft Safety Analysis
-- Identify aircraft makes/models (professional builds only, no amateur-built) that show:
-    Low rates of total destruction in accidents.
-    Low likelihood of fatal or serious passenger injuries.
-- Focus only on aircraft that could still be active (assume max lifetime of 40 years → filter data from 1983 onward).
-
-Outcomes of interest:
-- Total destruction (aircraft destroyed).
-- Fatal/serious injuries (passenger outcomes).
-
-Segmentation
+#### Client Context
+- The client is an airline/airplane insurer.
+- Their concern: financial and safety risk tied to aircraft accidents.
+#### Core Questions They Want Answered
+- Which aircraft makes/models (professional builds only) show:
+      Low rates of total destruction in accidents.
+      Low likelihood of fatal or serious passenger injuries.
+- Which factors/conditions contribute to safer outcomes?
+####  Constraints & Scope
+- Only aircraft that could still be active → assume max lifetime of 40 years.
+- Filter dataset to 1983 onward.
 - Provide separate recommendations for:
-    Small aircraft (general aviation, commuter planes).
-    Large passenger jets (commercial airline carriers).
+     Small aircraft (general aviation, commuter planes).
+     Large passenger jets (commercial airline carriers).
+- Ensure statistical robustness → avoid claims based on very few accidents.
+#### Deliverables
+- Clean dataset (using Pandas).
+- Exploratory Data Analysis (EDA): summary stats, plots, tables.
+- Evidence-backed recommendations for aircraft safety.
+- Identification of at least two general factors influencing accident outcomes
 
-Statistical Robustness
-- Only make claims where there are enough samples (avoid conclusions based on very few accidents).
-- Use summary statistics and visualizations to support findings.
-
-Factors Contributing to Safety
-- Identify at least two general variables/conditions that influence accident outcomes.
-- Provide evidence (tables, plots, descriptive stats) for each factor.
 
 
