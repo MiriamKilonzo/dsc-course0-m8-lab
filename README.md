@@ -20,5 +20,15 @@
 - Evidence-backed recommendations for aircraft safety.
 - Identification of at least two general factors influencing accident outcomes
 
+## Data Cleaning Workflow
 
+The dataset was cleaned and prepared in `Aviation_Accidents_Cleaning.ipynb`.  
+Key steps included:
+- Filtering timeframe (1983–2023) and excluding amateur-built aircraft.
+- Handling missing values and constructing key measures (e.g., FatalSerious_Fraction, Destroyed indicator).
+- Standardizing manufacturer and model names, retaining statistically significant makes/models.
+- Dropping columns with >40% missing values.
+- Exporting the cleaned dataset (`AviationData_Cleaned.csv`) for downstream analysis.
+
+For full details, see the notebook: `Aviation_Accidents_Cleaning.ipynb`.
 
