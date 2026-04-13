@@ -13,7 +13,7 @@
 - Provide separate recommendations for:<br>
      Small aircraft (general aviation, commuter planes).<br>
      Large passenger jets (commercial airline carriers).
-- Ensure statistical robustness → avoid claims based on very few accidents.
+- Ensure statistical robustness -> avoid claims based on very few accidents.
 #### Deliverables
 - Clean dataset (using Pandas).
 - Exploratory Data Analysis (EDA): summary stats, plots, tables.
